@@ -1,4 +1,6 @@
-
+body {
+  background: url("https://plus.unsplash.com/premium_photo-1677265809331-cab3587b3147?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hvcHBpbmclMjBtb25leXxlbnwwfHwwfHx8MA%3D%3D");
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -30,4 +32,8 @@ table th, table td {
 
 th {
   cursor: pointer;
+}
+
+.table-title {
+  background-color: gray;
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const ExpenseTable = ({ expenses, deleteExpense }) => {
   return (
     <div>
-      <h3>Expenses List</h3>
+      <h3 className = "table-title">Expenses List</h3>
       <table>
         <thead>
           <tr>
