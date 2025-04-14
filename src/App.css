@@ -1,3 +1,8 @@
+body{
+  background: url("https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fFNob3BwaW5nfGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container {
   width: 80%;
   margin: 0 auto;
