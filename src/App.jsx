@@ -11,9 +11,11 @@ const App = () => {
     setExpenses([...expenses, newExpense]);
   };
 
-  const deleteExpense = (index) => {
-    setExpenses(expenses.filter((_, i) => i !== index));
-  };
+  function deleteExpense(index) {
+    const updatedExpenses = expenses.filter((expense, i) => i !== index);
+    setExpenses(updatedExpenses);
+  }
+  
 
   const filteredExpenses = expenses.filter(
     (expense) =>
